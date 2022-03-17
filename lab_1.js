@@ -1,4 +1,4 @@
-import { isValidPrivate as _isValidPrivate, privateToPublic, isValidPublic as _isValidPublic, keccak256 } from 'ethereumjs-util';
+import { isValidPrivate as _isValidPrivate, privateToPublic, isValidPublic as _isValidPublic, keccak256, MAX_INTEGER } from 'ethereumjs-util';
 import { randomBytes } from 'crypto';
 
 let pattern ="1234";
