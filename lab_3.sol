@@ -22,7 +22,7 @@ contract tipJar {
     }
     function tip(uint _tipAmount) public payable nonZeroValue{
         require(msg.value==_tipAmount);
-        tipAmount=_tipAmount;
+        tipAmount+=_tipAmount;
     }
     function withdraw() public isOwner{
         
