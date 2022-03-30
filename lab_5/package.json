@@ -1,0 +1,14 @@
+{
+  "name": "lab_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lab_5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kaban4ik",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.6.2"
+  }
+}
